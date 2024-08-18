@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "NanumSquare";
+  src: url("/fonts/NanumSquareR.ttf") format("ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NanumSquare";
+  src: url("/fonts/NanumSquareB.ttf") format("ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+body {
+  @apply bg-slate-100 text-slate-800;
+  font-family: "NanumSquare", sans-serif;
+}
